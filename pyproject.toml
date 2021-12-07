@@ -6,7 +6,7 @@ authors = [""]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-celery = { extras = ["sqs"], version = "~5.2.0" }
+celery = { extras = ["gevent"], version = "~5.2.0" }
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
